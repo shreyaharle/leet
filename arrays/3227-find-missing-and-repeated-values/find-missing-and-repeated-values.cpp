@@ -10,14 +10,12 @@ public:
         }
         int r = 0;
         int m = 0;
-
         for (int i=1;i<=n*n;i++){
             if (mp[i]==2){
                 r = i;
             }
             else if (mp[i]==0){
-                m = i;
-            
+                m = i;           
             }
         }
         return {r,m};
